@@ -1,4 +1,4 @@
-# sposHacking
+# sposgram
 
 A Bruter for FAcebook, twITter, and InstAGRAM. Made with python, developed from brut3k1t.
 
