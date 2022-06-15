@@ -39,4 +39,4 @@ os.system("tar -xvf geckodriver-v0.31.0-linux64.tar.gz".format(first,second,OS_b
 os.system("rm geckodriver-v0.31.0-linux64.tar.gz".format(first,second,OS_bit))
 os.system("chmod +x geckodriver")
 os.system("mv geckodriver /usr/local/bin/")
-chmod +x sposgram && chmod +x setup.py
+os.system ("chmod +x faitagram && chmod +x setup.py")
