@@ -23,25 +23,25 @@ Get the requirements:
 
 Command:
 
-    python faitagram -s [service] -u [username] -w [wordlist] -d [delay(Optional)]
+    python sposgram -s [service] -u [username] -w [wordlist] -d [delay(Optional)]
 
 Examples:
 
   
 
-    python faitagram -s facebook -u MeMeBigBoy@gmail.com -w /root/passwd.txt -d 10
+    python sposgram -s facebook -u MeMeBigBoy@gmail.com -w /root/passwd.txt -d 10
 
-    (Execute faitagram) (facebook)  (Email of the target)  (wordlist path)   (delay[10secs])
+    (Execute sposgram) (facebook)  (Email of the target)  (wordlist path)   (delay[10secs])
 
 
-    python faitagram -s instagram -u justin -w wlist
+    python sposgram -s instagram -u justin -w wlist
 
-    (Execute faitagram) (Instagram) (username) (wordlist)
+    (Execute sposgram) (Instagram) (username) (wordlist)
   
 
-    python faitagram -s twitter -u hellohahahha -w wlist -d 3
+    python sposgram -s twitter -u hellohahahha -w wlist -d 3
 
-    (Execute faitagram) (Twitter)  (Username)  (wordlist) (delay[3secs])
+    (Execute sposgram) (Twitter)  (Username)  (wordlist) (delay[3secs])
   
 
 Memorize:
