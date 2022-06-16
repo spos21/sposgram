@@ -1,13 +1,14 @@
 import os, math, sys
 
-#OS_bit = (round(math.log(sys.maxint,2)+1))  # get the bit
+#os_bit = (round(math.log(sys.maxint,2)+1)) #get the bit
 
-os.system("sudo apt-get install python-pip && sudo apt-get install tor")   # installing dependencies
+os.system("apt-get install python-pip && sudo apt-get install tor")  #installing dependencies
 os.system("pip install -U selenium")
-os.system("pip install Pysocks")
+os.system("pip install PySocks")
 os.system("pip install pyvirtualdisplay && apt-get install xvfb")
 
-#print("\n \n {} \n \n".format(OS_bit))
+#print("\n \n {} \n \n".format(os_bit))
+
 
 
 os.system('firefox -v > tmp')                  # store result of firefox -v in tmp
@@ -26,14 +27,14 @@ if FirefoxVersion  < 54:
     second = 1
     os_bit = 64
 
-elif FirefoxVersion == 54 or FirefoxVersion == 55:
+elif FirefoxVersion == 53 or FirefoxVersion == 54:
 
     first = 19
 
-elif FirefoxVersion > 55:
+elif FirefoxVersion > 54:
 
     first = 19
-  
+
 
 os.system("wget https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz ".format(first,second,first,second,os_bit))
 os.system("tar -xvf geckodriver-v0.31.0-linux64.tar.gz".format(first,second,os_bit))
