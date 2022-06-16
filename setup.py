@@ -26,13 +26,14 @@ if FirefoxVersion  < 54:
     second = 1
     OS_bit = 64
 
-elif FirefoxVersion == 53 or FirefoxVersion == 54:
-
-    first = 18
-
-elif FirefoxVersion > 54:
+elif FirefoxVersion == 54 or FirefoxVersion == 55:
 
     first = 19
+
+elif FirefoxVersion > 55:
+
+    first = 19
+    second = 1
 
 os.system("wget https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz ".format(first,second,first,second,OS_bit))
 os.system("tar -xvf geckodriver-v0.31.0-linux64.tar.gz".format(first,second,OS_bit))
